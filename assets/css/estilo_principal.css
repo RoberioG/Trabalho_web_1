@@ -1,5 +1,5 @@
 .principal{
-    background: #eda0a8;
+    background: rosybrown;
     font-family: Quicksand, bold;
     grid-area: principal;
     
@@ -8,3 +8,18 @@
     grid-template-rows: 25% 25% 25% 25%;
 }
 
+.principal .principal-sessao1{
+    background-image: url(../imagens/imagem_background_1.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+}
+
+.principal .principal-sessao1 .principal-sessao1-texto{
+    margin: 10% 50% 10% 10%;
+}
+
+.principal .principal-sessao1 .principal-sessao1-texto span{
+    color: #f4ff2f ;
+    text-shadow: 2px 2px #282828;
+}

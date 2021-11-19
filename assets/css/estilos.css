@@ -13,7 +13,7 @@
         "principal"
         "rodape";
     grid-template-columns: auto;
-    grid-template-rows: 60px 400vh auto;
+    grid-template-rows: 60px calc(400vh - 60px) auto;
 }
 
 .page .rodape{

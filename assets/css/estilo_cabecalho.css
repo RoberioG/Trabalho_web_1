@@ -1,7 +1,7 @@
 .cabecalho{
     /*background: #00cc99;       usado pra ver as delimitações das caixas grid*/
     font-family: Quicksand, bold;
-    
+
     height: 60px;
     
     grid-area: cabecalho;

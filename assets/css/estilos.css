@@ -12,10 +12,18 @@
         "principal"
         "rodape";
     grid-template-columns: auto;
-    grid-template-rows: 60px calc(400vh - 60px) auto;
+    grid-template-rows: 60px 400vh auto;
 }
 
-.page .rodape{
-    background: #0099ff;
-    grid-area: rodape;
+.page h1{
+    font-weight: bolder;
+    font-size: 45px
+}
+
+.page h3{
+    font-size: 17px;
+}
+
+.page h2{
+    font-size: 25px;
 }

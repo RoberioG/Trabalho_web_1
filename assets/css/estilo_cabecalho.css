@@ -31,30 +31,29 @@
         display: flex;
         align-items: center;
     }
-
         .cabecalho .barra_menu .page_inicial{
-            margin-left: 6px;
-            margin-right: 6px;
+            margin-left: 12px;
+            margin-right: 12px;
         }
 
         .cabecalho .barra_menu .page_pvoce{
-            margin-left: 6px;
-            margin-right: 6px;
+            margin-left: 12px;
+            margin-right: 12px;
         }
 
         .cabecalho .barra_menu .page_pnegocio{
-            margin-left: 6px;
-            margin-right: 6px;
+            margin-left: 12px;
+            margin-right: 12px;
         }
 
         .cabecalho .barra_menu .page_banco{
-            margin-left: 6px;
-            margin-right: 6px;
+            margin-left: 12px;
+            margin-right: 12px;
         }
 
         .cabecalho .barra_menu .page_perguntas{
-            margin-left: 6px;
-            margin-right: 6px;
+            margin-left: 12px;
+            margin-right: 12px;
         }
 
     .cabecalho .entrar{

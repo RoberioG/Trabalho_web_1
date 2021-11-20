@@ -1,0 +1,33 @@
+.rodape{
+    background-color: #282828;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.rodape .redes-sociais .icone-texto{
+    margin-top: -22px;
+    display: grid;
+    grid-template-columns: 13% 88%;
+    align-items: center;
+    justify-content: center;
+}
+
+.rodape .redes-sociais img{
+    max-width: 40px;  
+    max-height: 20px;
+    filter: invert(100%);
+}
+
+.rodape .informacoes-legais{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.rodape .informacoes-legais img{
+    padding: 20px;
+    max-width: 80px;   
+    max-height: 40px;
+}

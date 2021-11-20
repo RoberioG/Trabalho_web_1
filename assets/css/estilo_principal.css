@@ -8,11 +8,11 @@
     grid-template-rows: 25% 25% 25% 25%;
 }
 
-    .principal .principal-sessao1{
+    .principal .principal-sessao1{ 
         background: white;
-        background-image: url(../imagens/imagem_background_4.jpg);
+        background-image: url(../imagens/imagem_background_1.jpg);
         background-repeat: no-repeat;
-        background-position: center center;
+        background-position:unset;
         background-size: cover;
     }
 
@@ -33,13 +33,13 @@
             max-height: 405px;
         }
 
-        .principal .principal-sessao2{
-        background-image: url(../imagens/imagem_background_3.png);
+    .principal .principal-sessao2{
+        background-image: url(../imagens/imagem_background_2.png);
         background-repeat: no-repeat;
         background-position: left;
         background-size: cover;
         
-        }
+    }
 
         .principal .principal-sessao2 .principal-sessao2-texto{
             padding: 120px;
@@ -63,7 +63,7 @@
         align-items: center;
         justify-content: center;
         
-        background-image: url(../imagens/imagem_background_2.png);
+        background-image: url(../imagens/imagem_background_3.png);
         background-repeat: no-repeat;
         background-position: center center;
         background-size: cover;
@@ -84,4 +84,6 @@
             .principal .principal-sessao3 .principal-sessao3-texto h2{
                 font-size: 40px;
             }
-    
+/*
+kkkkkkkk, tem jeito mais facil
+*/

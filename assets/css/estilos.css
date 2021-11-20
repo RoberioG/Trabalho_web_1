@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Praise&family=Quicksand:wght@300;600;700&family=Raleway:wght@200;700;900&family=Roboto:wght@300;900&display=swap');
 
-.blackIcon {color:whiteite;}
 .page{
     background: white;
 
@@ -16,15 +15,28 @@
     grid-template-rows: 60px 400vh auto;
 }
 
+a {
+    color: #000;
+ }
+
+a {
+    text-decoration: none;
+   }
+   
 .page h1{
     font-weight: bolder;
     font-size: 45px
+}
+
+.page h2{
+    font-size: 25px;
 }
 
 .page h3{
     font-size: 17px;
 }
 
-.page h2{
-    font-size: 25px;
+.page label{
+    font-size: 17px;
+    font-family: Quicksand, bold;
 }

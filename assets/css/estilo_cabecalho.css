@@ -5,23 +5,14 @@
     height: 60px;
     
     grid-area: cabecalho;
-    display: grid;
-    grid-template-areas: 
-        "icone"
-        "barra_menu"
-        "entrar";
-    grid-template-columns:10% 75% 15%;
-    grid-template-rows: auto;
+    display: flex;
+    justify-content: space-around;
 }
-
     .cabecalho .icone{
-        /*background: chartreuse;       usado pra ver as delimitações das caixas grid*/
         display: flex;
         align-items: center;
         justify-content: center;
-
     }
-
         .cabecalho .icone img{
             max-width: 80px;   
             max-height: 40px;
@@ -31,6 +22,12 @@
         display: flex;
         align-items: center;
     }
+
+    .cabecalho .barra_menu div{
+        margin: 0px 10px 0px 10px ;
+    }
+
+/*
         .cabecalho .barra_menu .page_inicial{
             margin-left: 12px;
             margin-right: 12px;
@@ -55,12 +52,11 @@
             margin-left: 12px;
             margin-right: 12px;
         }
+*/
 
     .cabecalho .entrar{
-        /*background-color: aqua;       usado pra ver as delimitações das caixas grid*/
-        
         display: flex;
-        align-items: center;                    /* ALINHAR ITENS FLEXBOX AO CENTRO */
+        align-items: center;
         justify-content: center;
     }
 
@@ -74,3 +70,33 @@
             height: 35px;
         }
 
+@media (max-width: 500px){
+    
+    .cabecalho{
+
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content:space-around;
+    }
+
+    .cabecalho .icone{
+        margin: 20px;
+    }
+    
+    .cabecalho .barra_menu{
+        height: 40vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .cabecalho .barra_menu div{
+        margin: -5px 0px -5px 0px;
+    }
+
+    .cabecalho .entrar{
+        margin: 20px;
+    }
+
+}

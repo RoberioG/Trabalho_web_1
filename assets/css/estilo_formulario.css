@@ -98,3 +98,21 @@ fieldset.grupo .campo {
 .botao, select{
     cursor: pointer;
 }
+
+@media (max-width: 500px){
+    .principal-sessao4{
+        padding-left: 15px;
+    }
+
+    #titulo {
+        margin-left: 28%;
+    } 
+    
+    #subtitulo {
+        margin-left: 26%;
+    }
+    .botao{
+        top: 495%;
+    } 
+
+}

@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <script src="./assets/imagens/" crossorigin="anonymous"></script>
+    <!<script src="./assets/imagens/" crossorigin="anonymous"></script>
 
     <link rel="stylesheet" href="./assets/css/estilos.css">
     <link rel="stylesheet" href="./assets/css/estilo_cabecalho.css">
@@ -31,13 +31,24 @@
         </div>
         
         <div class="entrar">
-            <a href="redirecionamento.html" onclick="login()"><h3>Entrar</h3></a>
+            <a href="login.html"><h3>Entrar</h3></a>
             <img src="./assets/imagens/imagem_icon_login.png" alt="imagem_icone_login">
         </div>
-
     </header>
 
     <main class="principal">
+        <!--
+        <section class="principal-sessao">
+           
+           <div id="slides">
+                <img src="./assets/imagens/imagem_background_1.jpg">
+                <img src="./assets/imagens/imagem_background_2.png">
+                <img src="./assets/imagens/imagem_background_3.png">
+                <img src="./assets/imagens/imagem_background_4.jpg">
+           </div>
+           
+        </section>-->
+
 
         <section class="principal-sessao1">
             <div class="principal-sessao1-texto">
@@ -64,10 +75,9 @@
         </section>
 
         <section class="principal-sessao4">
-            <div>
+            <div class="titulo_cadastro">
                 <h1 id="titulo">Cadastro</h1>
                 <h4 id="subtitulo">Complete suas informações</h4>
-                <br>
             </div>
             <form>
                 <fieldset class="grupo">
@@ -76,24 +86,28 @@
                         <input type="text" name="nome" id="nome" required>
                     </div>
                     <div class="campo">
-                        <label for="sobrenome"><strong>Sobrenome</strong></label>
-                        <input type="text" name="sobrenome" id="sobrenome" required>
+                        <label for="data"><strong>Data de nascimento</strong></label>
+                        <input type="text" name="data-de-nascimento" id="data-de-nascimento" required>
                     </div>
                 </fieldset>
                 <fieldset class="grupo">
                     <div class="campo">
-                        <label for="data"><strong>Data de nascimento</strong></label>
-                        <input type="text" name="data-de-nascimento" id="data-de-nascimento" required>
+                        <label for="sobrenome"><strong>Sobrenome</strong></label>
+                        <input type="text" name="sobrenome" id="sobrenome" required>
                     </div>
                     <div class="campo">
                         <label for="cpf"><strong>CPF</strong></label>
-                        <input type="text" name="email" id="email" required>
+                        <input type="text" name="cpf" id="cpf" required>
                     </div>
                 </fieldset>
                 <fieldset class="grupo">
                     <div class="campo">
                         <label for="email"><strong>Email</strong></label>
                         <input type="text" name="email" id="email" required>
+                    </div>
+                    <div class="campo">
+                        <label for="senha"><strong>Senha</strong></label>
+                        <input type="text" name="senha" id="senha" required>
                     </div>
                 </fieldset>
                 <fieldset class="grupo">
@@ -112,8 +126,9 @@
     </main>
 
     <footer class="rodape">
+        <div class="rodape_parte1">
             <div class="sobre">
-                <h2>OldBank</h2>
+                <h2>OldBank</h2></li>
                 <h3>Sobre nós</h3>
                 <h3>Carreiras</h3>
                 <h3>Perguntas frequentes</h3>
@@ -149,10 +164,13 @@
                     <h3>Twitter: @oldbankoficial</h3>
                 </div>
             </div>
+        </div>
+        <div class="rodape_parte2">
             <div class="informacoes-legais">
                 <div class="icone">  <img src="./assets/imagens/imagem_icon_banco.png" alt="imagem_icone_banco"></div>
                 <div><p> Copyright © 2021 OldBank Pagamentos S.A -  Intituição Financeira. <br> Rua Fiquitícia Inventada, 1800 - Limoeiro Do Norte, Ce - 62930-000</p></div>
             </div>
+        </div>
     </footer>
     <script src="./assets/js/script.js"></script>
 </body>
